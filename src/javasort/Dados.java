@@ -2,133 +2,82 @@
 package javasort;
 //import java.lang.Comparable;
 public class Dados implements Comparable<Dados>{
-   private String data;
-   private String cidade;
-   private String condicao;
-   private String temperaturaTendencia;
-   private int temperaturaMinima;
-   private int temperaturaMaxima;
-   private int ventoVelocidadeMinima;
-   private int ventoVelocidadeMaxima;
-   private String ventoDirecao;
+   private int chapter;
+   private int volume;
+   private String name;
+   private String romanizedTitle;
+   private int pages;
 
 
 
     /**
      * @return the data
      */
-    public String getData() {
-        return data;
+    public int getChapter() {
+        return chapter;
     }
 
     /**
      * @param data the data to set
      */
-    public void setData(String data) {
-        this.data = data;
+    public void setChapter(int chapter) {
+        this.chapter = chapter;
     }
 
     /**
      * @return the cidade
      */
-    public String getCidade() {
-        return cidade;
+    public int getVolume() {
+        return volume;
     }
 
     /**
      * @param cidade the cidade to set
      */
-    public void setCidade(String cidade) {
-        this.cidade = cidade;
+    public void setVolume(int volume) {
+        this.volume = volume;
     }
 
     /**
      * @return the condicao
      */
-    public String getCondicao() {
-        return condicao;
+    public String getName() {
+        return name;
     }
 
     /**
-     * @param condicao the condicao to set
+     * @param name the condicao to set
      */
-    public void setCondicao(String condicao) {
-        this.condicao = condicao;
+    public void setName(String name) {
+        this.name = name;
     }
 
     /**
      * @return the temperatura_Tendencia
      */
-    public String getTemperaturaTendencia() {
-        return temperaturaTendencia;
+    public String getRomanizedTitle() {
+        return romanizedTitle;
     }
 
 
-    public void setTemperaturaTendencia(String temperaturaTendencia) {
-        this.temperaturaTendencia = temperaturaTendencia;
+    public void setRomanizedTitle(String romanizedTitle) {
+        this.romanizedTitle = romanizedTitle;
     }
 
     /**
      * @return the temperaturaMinima
      */
-    public int getTemperaturaMinima() {
-        return temperaturaMinima;
+    public int getPages() {
+        return pages;
     }
 
     /**
-     * @param temperaturaMinima the temperaturaMinima to set
+     * @param pages the temperaturaMinima to set
      */
-    public void setTemperaturaMinima(int temperaturaMinima) {
-        this.temperaturaMinima = temperaturaMinima;
+    public void setPages(int pages) {
+        this.pages = pages;
     }
 
-    /**
-     * @return the temperaturaMaxima
-     */
-    public int getTemperaturaMaxima() {
-        return temperaturaMaxima;
-    }
-
-    /**
-     * @param temperaturaMaxima the temperaturaMaxima to set
-     */
-    public void setTemperaturaMaxima(int temperaturaMaxima) {
-        this.temperaturaMaxima = temperaturaMaxima;
-    }
-
-    /**
-     * @return the ventoVelocidadeMinima
-     */
-    public int getVentoVelocidadeMinima() {
-        return ventoVelocidadeMinima;
-    }
-
-    /**
-     * @param ventoVelocidadeMinima the ventoVelocidadeMinima to set
-     */
-    public void setVentoVelocidadeMinima(int ventoVelocidadeMinima) {
-        this.ventoVelocidadeMinima = ventoVelocidadeMinima;
-    }
-
- 
-    public int getVentoVelocidadeMaxima() {
-        return ventoVelocidadeMaxima;
-    }
-
-
-    public void setVentoVelocidadeMaxima(int ventoVelocidadeMaxima) {
-        this.ventoVelocidadeMaxima = ventoVelocidadeMaxima;
-    }
-
- 
-    public String getVentoDirecao() {
-        return ventoDirecao;
-    }
-
-
-    public void setVentoDirecao(String ventoDirecao) {
-        this.ventoDirecao = ventoDirecao;
-    }
     
     @Override    
     public int compareTo(Dados outroDado){
@@ -136,10 +85,10 @@ public class Dados implements Comparable<Dados>{
               compareTo(outroDado.getCidade());
     }
     
-    
-     @Override
-    public String toString(){
-        return getCidade()+ " : " + getCondicao() ;
-    }// fim toString
+//    
+//     @Override
+//    public String toString(){
+//        return getCidade()+ " : " + getName() ;
+//    }// fim toString;
     
 }

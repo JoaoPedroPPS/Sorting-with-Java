@@ -6,15 +6,22 @@ import javax.swing.table.DefaultTableModel;
 
 public class FormSistema extends javax.swing.JFrame {
     ArrayList<Dados> lista = new ArrayList<>();
-    Comparator<Dados> compareTempMin = 
+    Comparator<Dados> compareChapter = 
             (Dados a1, Dados a2) ->
-                    a1.getTemperaturaMinima()- a2.getTemperaturaMinima();
-    Comparator<Dados> compareTempMax = 
+                    a1.getChapter()- a2.getChapter();
+    Comparator<Dados> comparePages = 
             (Dados a1, Dados a2) ->
-                    a1.getTemperaturaMaxima()- a2.getTemperaturaMaxima();
-    Comparator<Dados> compareData = 
+                   a1.getPages()- a2.getPages();
+    Comparator<Dados> compareVolume = 
             (Dados a1, Dados a2) ->
-                    a1.getData().compareTo(a2.getData());
+                   a1.getVolume()- a2.getVolume();
+    Comparator<Dados> compareName = 
+            (Dados a1, Dados a2) ->
+                    a1.getName().compareTo(a2.getName());
+     Comparator<Dados> compareRomanizedTitle = 
+            (Dados a1, Dados a2) ->
+                    a1.getRomanizedTitle().compareTo(a2.getRomanizedTitle());   
+    
     /*
     Comparator<Dados> comparePrioridade = 
             (Dados a1, Dados a2) ->
@@ -49,11 +56,10 @@ public class FormSistema extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(204, 255, 204));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Matheus\\Downloads\\amazonas.png")); // NOI18N
-
-        lblProx.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        lblProx.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
         lblProx.setForeground(new java.awt.Color(255, 255, 255));
-        lblProx.setText("Sistema de Informações Climáticas da Amazônia");
+        lblProx.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javasort/pngwing.com (1).png"))); // NOI18N
+        lblProx.setText("LISTA DE EPISÓDIOS DO MANGÁ DE ONE PIECE");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -63,8 +69,8 @@ public class FormSistema extends javax.swing.JFrame {
                 .addGap(16, 16, 16)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblProx, javax.swing.GroupLayout.PREFERRED_SIZE, 890, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addComponent(lblProx, javax.swing.GroupLayout.PREFERRED_SIZE, 1148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -73,7 +79,7 @@ public class FormSistema extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(53, 53, 53)
+                .addGap(42, 42, 42)
                 .addComponent(lblProx, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -125,9 +131,9 @@ public class FormSistema extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 879, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(btnOrdNome, javax.swing.GroupLayout.DEFAULT_SIZE, 232, Short.MAX_VALUE)
@@ -185,22 +191,18 @@ public class FormSistema extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     private void carregaArquivo(){
-     String csvFile = "dados_tempo_import.csv";
+     String csvFile = "Chapters.csv";
         String line = "";
         String[] leitura = null;
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
             while ((line = br.readLine()) != null) {
-                Dados tempo = new Dados();
+                Dados cap = new Dados();
                 leitura = line.split(",");
-                tempo.setData(leitura[0]);
-                tempo.setCidade(leitura[1]);
-                tempo.setCondicao(leitura[2]);
-                tempo.setTemperaturaTendencia(leitura[3]);
-                tempo.setTemperaturaMinima(Integer.parseInt(leitura[4]));
-                tempo.setTemperaturaMaxima(Integer.parseInt(leitura[5]));
-                tempo.setVentoVelocidadeMinima(Integer.parseInt(leitura[6]));
-                tempo.setVentoVelocidadeMaxima(Integer.parseInt(leitura[7]));
-                tempo.setVentoDirecao(leitura[8]);
+                cap.setChapter(Integer.parseInt(leitura[0]));
+                cap.setVolume(Integer.parseInt(leitura[1]));
+                cap.setName(leitura[2]);
+                cap.setRomanizedTitle(leitura[3]);
+                cap.setPages(Integer.parseInt(leitura[4]));
                 /*System.out.println(leitura[0]+"\n");
                 System.out.println(leitura[1]+"\n");
                 System.out.println(leitura[2]+"\n");
@@ -209,9 +211,8 @@ public class FormSistema extends javax.swing.JFrame {
                 System.out.println(leitura[5]+"\n");
                 System.out.println(leitura[6]+"\n");
                 System.out.println(leitura[7]+"\n");
-                
                 System.out.println(leitura[8]+"\n");*/
-                lista.add(tempo); 
+                lista.add(cap); 
             }// fim percurso no arquivo
             mostra();
         } catch (IOException e) {
@@ -221,23 +222,20 @@ public class FormSistema extends javax.swing.JFrame {
     //https://1bestcsharp.blogspot.com/2016/03/java-populate-jtable-from-arraylist.html
     void mostra(){
         //limpando a tabela
-        tabelaDados.setModel(new DefaultTableModel(null,new String[]{"Data","Cidade","Condição","Tendencia","Máxima","Minima","Vento Max", "Vento Min", "Direção"}));
+        tabelaDados.setModel(new DefaultTableModel(null,new String[]{"Chapter","Volume","Name","Romanized_title","Pages"}));
        
         DefaultTableModel model = 
                 (DefaultTableModel)tabelaDados.getModel();
         Object rowData[] = new Object[9];// qtd colunas
         for(Dados d: lista)
         {
-            rowData[0] = d.getData();
-            rowData[1] = d.getCidade();
-            rowData[2] = d.getCondicao();
-            rowData[3] = d.getTemperaturaTendencia();
-            rowData[4] = d.getTemperaturaMinima();
-            rowData[5] = d.getTemperaturaMaxima();
-            rowData[6] = d.getVentoVelocidadeMinima();
-            rowData[7] = d.getVentoVelocidadeMaxima();
-            rowData[8] = d.getVentoDirecao();
-            System.out.println("TempMin:"+d.getTemperaturaMinima()+"\n");
+            rowData[0] = d.getChapter();
+            rowData[1] = d.getVolume();
+            rowData[2] = d.getName();
+            rowData[3] = d.getRomanizedTitle();
+            rowData[4] = d.getPages();
+     
+//            System.out.println("TempMin:"+d.getPages()+"\n");
             model.addRow(rowData);
         }// fim preenche modelo
     }// fim mostra
@@ -248,11 +246,11 @@ public class FormSistema extends javax.swing.JFrame {
     
     private void btnOrdNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdNomeActionPerformed
     switch(cbOrdena.getSelectedIndex()){    
-        case 0: lista.sort(compareData);
+        case 0: lista.sort(compareChapter);
             break;
         case 1: Collections.sort(lista);
             break;
-        case 2: lista.sort(compareTempMin);
+        case 2: lista.sort(compareName);
             break;
         default: JOptionPane.showMessageDialog(null,"Em construção!");    
         }    
@@ -267,18 +265,18 @@ public class FormSistema extends javax.swing.JFrame {
         case 1:  if(opSeq.isSelected()){
                     for(Dados d: lista){
                         cont++;
-                        if(d.getCidade().equals(txtBusca.getText())){
-                          JOptionPane.showMessageDialog(null,"Cidade encontrada "+cont+" comparações");  
+                        if(d.getName().equals(txtBusca.getText())){
+                          JOptionPane.showMessageDialog(null,"Capítulo Encontrado! "+cont+" comparações");  
                             break;
                         }      
                     }
                 }// fim if Sequencial;
                 else{
                   Dados d = new Dados();
-                  d.setCidade(txtBusca.getText()); // alterar atributo de acordo com a seleção
+                  d.setName(txtBusca.getText()); // alterar atributo de acordo com a seleção
                   // definir o comparator caso não seja o padrão na chamado da busca binária
                   int pos = Collections.binarySearch(lista,d); // int pos = Collections.binarySearch(lista,d,compareTempMax);
-                  JOptionPane.showMessageDialog(null,"Cidade encontrada, posicao "+pos);  
+                  JOptionPane.showMessageDialog(null,"Capítulo encontrado, posicao "+pos);  
                 }// fim else binary
             break;
         case 2: 
