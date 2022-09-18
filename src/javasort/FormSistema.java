@@ -3,6 +3,7 @@ import java.io.*;
 import java.util.*;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+import static java.lang.Integer.parseInt;
 
 public class FormSistema extends javax.swing.JFrame {
     ArrayList<Dados> lista = new ArrayList<>();
@@ -106,8 +107,14 @@ public class FormSistema extends javax.swing.JFrame {
             }
         ));
         jScrollPane1.setViewportView(tabelaDados);
+        tabelaDados.getAccessibleContext().setAccessibleName("");
 
-        cbOrdena.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Data", "Cidade", "Minima", "Máxima", "Vento Min", "Vento Max", " " }));
+        cbOrdena.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Chapter", "Volume", "Name", "Romanized Title", "Pages", " " }));
+        cbOrdena.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbOrdenaActionPerformed(evt);
+            }
+        });
 
         txtBusca.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Dados para busca", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI Light", 0, 14))); // NOI18N
 
@@ -203,15 +210,6 @@ public class FormSistema extends javax.swing.JFrame {
                 cap.setName(leitura[2]);
                 cap.setRomanizedTitle(leitura[3]);
                 cap.setPages(Integer.parseInt(leitura[4]));
-                /*System.out.println(leitura[0]+"\n");
-                System.out.println(leitura[1]+"\n");
-                System.out.println(leitura[2]+"\n");
-                System.out.println(leitura[3]+"\n");
-                System.out.println(leitura[4]+"\n");
-                System.out.println(leitura[5]+"\n");
-                System.out.println(leitura[6]+"\n");
-                System.out.println(leitura[7]+"\n");
-                System.out.println(leitura[8]+"\n");*/
                 lista.add(cap); 
             }// fim percurso no arquivo
             mostra();
@@ -222,11 +220,11 @@ public class FormSistema extends javax.swing.JFrame {
     //https://1bestcsharp.blogspot.com/2016/03/java-populate-jtable-from-arraylist.html
     void mostra(){
         //limpando a tabela
-        tabelaDados.setModel(new DefaultTableModel(null,new String[]{"Chapter","Volume","Name","Romanized_title","Pages"}));
+        tabelaDados.setModel(new DefaultTableModel(null,new String[]{"Chapter_Number","Volume","Name","Romanized_title","Pages"}));
        
         DefaultTableModel model = 
                 (DefaultTableModel)tabelaDados.getModel();
-        Object rowData[] = new Object[9];// qtd colunas
+        Object rowData[] = new Object[5];// qtd colunas
         for(Dados d: lista)
         {
             rowData[0] = d.getChapter();
@@ -248,9 +246,13 @@ public class FormSistema extends javax.swing.JFrame {
     switch(cbOrdena.getSelectedIndex()){    
         case 0: lista.sort(compareChapter);
             break;
-        case 1: Collections.sort(lista);
+        case 1: lista.sort(compareVolume);
             break;
         case 2: lista.sort(compareName);
+            break;
+        case 3: lista.sort(compareRomanizedTitle);
+            break;
+        case 4: lista.sort(comparePages);
             break;
         default: JOptionPane.showMessageDialog(null,"Em construção!");    
         }    
@@ -279,11 +281,30 @@ public class FormSistema extends javax.swing.JFrame {
                   JOptionPane.showMessageDialog(null,"Capítulo encontrado, posicao "+pos);  
                 }// fim else binary
             break;
-        case 2: 
+        case 2:  if(opSeq.isSelected()){
+                    for(Dados d: lista){
+                        cont++;
+                        if(d.getChapter() == (Integer.parseInt(txtBusca.getText()))){
+                          JOptionPane.showMessageDialog(null,"Capítulo Encontrado! "+cont+" comparações");  
+                            break;
+                        }      
+                    }
+                }// fim if Sequencial;
+                else{
+                  Dados d = new Dados();
+                  d.setChapter(Integer.parseInt(txtBusca.getText())); // alterar atributo de acordo com a seleção
+                  // definir o comparator caso não seja o padrão na chamado da busca binária
+                  int pos = Collections.binarySearch(lista,d); // int pos = Collections.binarySearch(lista,d,compareTempMax);
+                  JOptionPane.showMessageDialog(null,"Capítulo encontrado, posicao "+pos);  
+                }// fim else binary
             break;
         default: JOptionPane.showMessageDialog(null,"Em construção!");              
         }// switch
     }//GEN-LAST:event_btnBuscaActionPerformed
+
+    private void cbOrdenaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbOrdenaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbOrdenaActionPerformed
     
     /**
      * @param args the command line arguments

@@ -1,6 +1,6 @@
 
 package javasort;
-//import java.lang.Comparable;
+import java.lang.Comparable;
 public class Dados implements Comparable<Dados>{
    private int chapter;
    private int volume;
@@ -79,10 +79,10 @@ public class Dados implements Comparable<Dados>{
     }
 
     
-    @Override    
+  
+    @Override
     public int compareTo(Dados outroDado){
-      return this.getCidade().
-              compareTo(outroDado.getCidade());
+      return this.getName().compareTo(outroDado.getName());
     }
     
 //    
