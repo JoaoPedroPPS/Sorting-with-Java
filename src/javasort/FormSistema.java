@@ -12,16 +12,16 @@ public class FormSistema extends javax.swing.JFrame {
                     a1.getChapter()- a2.getChapter();
     Comparator<Dados> comparePages = 
             (Dados a1, Dados a2) ->
-                   a1.getPages()- a2.getPages();
+                   a1.getPages() - a2.getPages();
     Comparator<Dados> compareVolume = 
             (Dados a1, Dados a2) ->
-                   a1.getVolume()- a2.getVolume();
+                   a1.getVolume() - a2.getVolume();
     Comparator<Dados> compareName = 
             (Dados a1, Dados a2) ->
-                    a1.getName().compareTo(a2.getName());
+                    a1.getName().compareToIgnoreCase(a2.getName());
      Comparator<Dados> compareRomanizedTitle = 
             (Dados a1, Dados a2) ->
-                    a1.getRomanizedTitle().compareTo(a2.getRomanizedTitle());   
+                    a1.getRomanizedTitle().compareToIgnoreCase(a2.getRomanizedTitle());   
     
     /*
     Comparator<Dados> comparePrioridade = 
@@ -262,12 +262,42 @@ public class FormSistema extends javax.swing.JFrame {
     private void btnBuscaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscaActionPerformed
        int cont=0;
         switch(cbOrdena.getSelectedIndex()){    
-        case 0: 
+        case 0:  if(opSeq.isSelected()){
+                    for(Dados d: lista){
+                        cont++;
+                        if(d.getChapter() == Integer.parseInt(txtBusca.getText())){
+                          JOptionPane.showMessageDialog(null,"Capítulo Encontrado! "+cont+" comparações");  
+                            break;
+                        }      
+                    }
+                }// fim if Sequencial;
+                else{
+                  Dados d = new Dados();
+                  d.setChapter(Integer.parseInt(txtBusca.getText()));
+                  int pos = Collections.binarySearch(lista,d, compareChapter);
+                  JOptionPane.showMessageDialog(null,"Capítulo encontrado!, posicao "+pos);  
+                }// fim else binary
             break;
         case 1:  if(opSeq.isSelected()){
                     for(Dados d: lista){
                         cont++;
-                        if(d.getName().equals(txtBusca.getText())){
+                        if(d.getVolume() == Integer.parseInt(txtBusca.getText())){
+                          JOptionPane.showMessageDialog(null,"Capítulos Encontrados! "+cont+" comparações");  
+                            break;
+                        }      
+                    }
+                }// fim if Sequencial;
+                else{
+                  Dados d = new Dados();
+                  d.setVolume(Integer.parseInt(txtBusca.getText())); 
+                  int pos = Collections.binarySearch(lista,d, compareVolume); 
+                  JOptionPane.showMessageDialog(null,"Capítulos encontrados, posicao "+pos);  
+                }// fim else binary
+            break;
+        case 2: if(opSeq.isSelected()){
+                    for(Dados d: lista){
+                        cont++;
+                        if(d.getName().equalsIgnoreCase(txtBusca.getText())){
                           JOptionPane.showMessageDialog(null,"Capítulo Encontrado! "+cont+" comparações");  
                             break;
                         }      
@@ -275,16 +305,15 @@ public class FormSistema extends javax.swing.JFrame {
                 }// fim if Sequencial;
                 else{
                   Dados d = new Dados();
-                  d.setName(txtBusca.getText()); // alterar atributo de acordo com a seleção
-                  // definir o comparator caso não seja o padrão na chamado da busca binária
-                  int pos = Collections.binarySearch(lista,d); // int pos = Collections.binarySearch(lista,d,compareTempMax);
+                  d.setName(txtBusca.getText()); 
+                  int pos = Collections.binarySearch(lista,d, compareName); 
                   JOptionPane.showMessageDialog(null,"Capítulo encontrado, posicao "+pos);  
                 }// fim else binary
             break;
-        case 2:  if(opSeq.isSelected()){
+            case 3: if(opSeq.isSelected()){
                     for(Dados d: lista){
                         cont++;
-                        if(d.getChapter() == (Integer.parseInt(txtBusca.getText()))){
+                        if(d.getRomanizedTitle().equalsIgnoreCase(txtBusca.getText())){
                           JOptionPane.showMessageDialog(null,"Capítulo Encontrado! "+cont+" comparações");  
                             break;
                         }      
@@ -292,9 +321,24 @@ public class FormSistema extends javax.swing.JFrame {
                 }// fim if Sequencial;
                 else{
                   Dados d = new Dados();
-                  d.setChapter(Integer.parseInt(txtBusca.getText())); // alterar atributo de acordo com a seleção
-                  // definir o comparator caso não seja o padrão na chamado da busca binária
-                  int pos = Collections.binarySearch(lista,d); // int pos = Collections.binarySearch(lista,d,compareTempMax);
+                  d.setRomanizedTitle(txtBusca.getText()); 
+                  int pos = Collections.binarySearch(lista,d, compareRomanizedTitle); 
+                  JOptionPane.showMessageDialog(null,"Capítulo encontrado, posicao "+pos);  
+                }// fim else binary
+            break;
+            case 4: if(opSeq.isSelected()){
+                    for(Dados d: lista){
+                        cont++;
+                        if(d.getPages() == Integer.parseInt(txtBusca.getText())){
+                          JOptionPane.showMessageDialog(null,"Capítulo Encontrado! "+cont+" comparações");  
+                            break;
+                        }      
+                    }
+                }// fim if Sequencial;
+                else{
+                  Dados d = new Dados();
+                  d.setPages(Integer.parseInt(txtBusca.getText())); 
+                  int pos = Collections.binarySearch(lista,d, comparePages); 
                   JOptionPane.showMessageDialog(null,"Capítulo encontrado, posicao "+pos);  
                 }// fim else binary
             break;

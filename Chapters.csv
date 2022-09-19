@@ -1,6 +1,5 @@
-Chapter_Number,Volume,Name,Romanized_title,Pages
 1,1,Romance Dawn - The Dawn of the Adventure,Romansu Don - Boken no Yoake,53
-2,1,"That Guy, ""Straw Hat Luffy""","Sono Otoko ""Mugiwara no Rufi""",23
+2,1,"That Guy- ""Straw Hat Luffy""","Sono Otoko ""Mugiwara no Rufi""",23
 3,1,Introducing Pirate Hunter Zoro,"""Kaizoku-gari no Zoro"" Tojo",21
 4,1,"Marine Captain ""Axe-Hand Morgan""","Kaigun Taisa ""Onote no Mogan""",19
 5,1,Pirate King and Master Swordsman,Kaizoku-O to Daikengo,19
@@ -10,7 +9,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 9,2,The Devil Girl,Masho no Onna,21
 10,2,Incident at the Tavern,Sakaba no Ikken,23
 11,2,Flight,Haiso,19
-12,2,Dog,Inu,NA
+12,2,Dog,Inu,19
 13,2,Treasure,Takaramono,19
 14,2,Reckless!!,Mubo!!,19
 15,2,Gong,Gongu,19
@@ -46,7 +45,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 45,6,Before the Storm,Arashi Mae,18
 46,6,An Uninvited Guest,Manekarezaru Kyaku,19
 47,6,"Pirate Fleet Admiral ""Don Krieg""","Kaizoku Kantai Teitoku ""Don Kuriku""",19
-48,6,Leave That Path Alone,"Sono Koro, Yametoki na",19
+48,6,Leave That Path Alone,Sono Koro- Yametoki na,19
 49,6,Storm,Arashi,18
 50,6,A Parting of Ways,Onoono ga Michi,19
 51,6,Roronoa Zoro Falls Into the Sea,Roronoa Zoro Umi ni Chiru,19
@@ -80,7 +79,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 79,9,To Live,Ikiru,19
 80,9,A Crime is a Crime,Tsumi wa Tsumi,19
 81,9,Tears,Namida,19
-82,10,"OK, Let's STAND UP!","Oke, Rettsu, Sutan Dappu!",19
+82,10,OK- Let's STAND UP!,Oke- Rettsu- Sutan Dappu!,19
 83,10,Luffy in Black,Rufi In Burakku,19
 84,10,Zombie,Zonbi,19
 85,10,Three Sword Style vs. Six Sword Style,Santoryu tai Rokutoryu,19
@@ -93,14 +92,14 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 92,11,Happiness,Shiawase,19
 93,11,Going Down,Shita e Mairimasu,19
 94,11,The Second,Futarime,17
-95,11,"Spin, Pinwheel",Maware Kazaguruma,19
+95,11,Spin- Pinwheel,Maware Kazaguruma,19
 96,11,Greatest Evil of the East,Higashi Ichiban no Waru,19
 97,11,Sandai Kitetsu,Sandai Kitetsu,19
 98,11,Dark Clouds,An'un,19
 99,11,Luffy Died,Rufi ga Shinda,19
 100,12,The Legend Has Begun,Densetsu wa Hajimatta,24
 101,12,Reverse Mountain,Rivasu Maunten,19
-102,12,"Now, The Grand Line","Sate, Gurando Rain",19
+102,12,Now- The Grand Line,Sate- Gurando Rain,19
 103,12,The Whale,Kujira,20
 104,12,Cape Promise,Yakusoku no Misaki,19
 105,12,Log Pose,Rogu Posu,19
@@ -161,15 +160,15 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 160,18,Spiders Cafe at 8 O'Clock,Supaidazu Kafe ni Hachi-ji,19
 161,18,The Green City Erumalu,Midori no Machi Erumaru,19
 162,18,Adventure in the Kingdom of Sand,Suna no Kuni no Boken,19
-163,18,"Yuba, the Town of Rebels",Hanran-Gun no Machi Yuba,19
+163,18,Yuba- the Town of Rebels,Hanran-Gun no Machi Yuba,19
 164,18,I Love This Country,Kuni ga Suki,19
 165,18,Operation Utopia,Sakusenmei Yutopia,18
 166,18,Luffy vs. Vivi,Rufi Basasu Bibi,19
 167,19,Battle Front,Sensen,19
-168,19,"Rainbase, The Town of Dreams",Yume no Machi Reinbesu,19
+168,19,Rainbase- The Town of Dreams,Yume no Machi Reinbesu,19
 169,19,The Kingdom's Strongest Warrior,Okoku Saikyo no Senshi,19
 170,19,It Begins,Hajimaru,19
-171,19,"Koza, Leader of the Rebels",Hanran-Gun Rida Koza,19
+171,19,Koza- Leader of the Rebels,Hanran-Gun Rida Koza,19
 172,19,Rebellion,Uneri,19
 173,19,Bananawani,Bananawani,19
 174,19,Mr. Prince,Misuta Purinsu,19
@@ -224,9 +223,9 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 223,24,I Promise Never to Fight in This Town,Watakushi wa Kono Machi de wa Kesshite Kenka Shinai to Chikaimasu,19
 224,24,Do Not Dream,Yume o Miruna,19
 225,24,People's Dreams,Hito no Yume,19
-226,24,"Shoujou, the Salvage King of the Seafloor",Kaitei Tansaku-O Shojo,19
+226,24,Shoujou- the Salvage King of the Seafloor,Kaitei Tansaku-O Shojo,19
 227,25,Noland the Liar,Usotsuki Norando,19
-228,25,"Mont Blanc Cricket, the Last Boss of the Saruyama Allied Force",'Saruyama Rengo-gun Rasuto Bosu' Monburan Kuriketto,19
+228,25,Mont Blanc Cricket- the Last Boss of the Saruyama Allied Force,'Saruyama Rengo-gun Rasuto Bosu' Monburan Kuriketto,19
 229,25,Let's Eat,Meshi o Kuo,19
 230,25,Pursue the South Bird!!,Sausu Bado o Oe!!,19
 231,25,Bellamy the Hyena,Haiena no Berami,19
@@ -244,7 +243,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 243,26,Ordeals,Shiren,17
 244,26,SOS,Esu-O-Esu,19
 245,26,Adventure on God's Island,Kami no Shima no Boken,17
-246,26,"Satori, Priest of the Wandering Forest",Mayoi no Mori no Shinkan Satori,19
+246,26,Satori- Priest of the Wandering Forest,Mayoi no Mori no Shinkan Satori,19
 247,27,Ordeal of Balls,Tama no Shiren,19
 248,27,Former God vs Priest,Moto Kami-sama Basasu Shinkan,19
 249,27,The Village Hidden in the Cloud,Kumogakure no Mura,19
@@ -290,7 +289,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 289,31,Full Moon,Bogetsu,21
 290,31,The Light of Shandora,Shandora no Hi,19
 291,31,I'm Right Here,Koko ni Iru,19
-292,31,"To Meet, like the Half-Moon Hidden by Clouds",Afukoto wa Katawaredzuki no Kumogakure,19
+292,31,To Meet- like the Half-Moon Hidden by Clouds,Afukoto wa Katawaredzuki no Kumogakure,19
 293,31,Bolero,Borero,19
 294,31,Raigo,Raigo,19
 295,31,Giant Jack,Jaianto Jakku,19
@@ -305,7 +304,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 304,32,Long Island Adventure,Nagai Shima no Boken,21
 305,32,Foxy the Silver Fox,Gin Gitsune no Fokushi,19
 306,33,Donut Race!!,Donatsu Resu!!,19
-307,33,"Ready, Donuts!!",Redii Donatsu!!,19
+307,33,Ready- Donuts!!,Redii Donatsu!!,19
 308,33,The Grand Interference Plan,Bodai Daisakusen,19
 309,33,Groggy Monsters,Gurokki Monsutazu,17
 310,33,Groggy Ring!!,Gurokki Ringu!!,19
@@ -321,11 +320,11 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 320,34,Ultimate Military Force,Saiko Senryoku,19
 321,34,One-on-One,Ikkiuchi,19
 322,34,Puffing Tom,Paffingu Tomu,19
-323,34,"The City of Water, Water 7","""Mizu no Miyako"" Wota Sebun",19
+323,34,The City of Water- Water 7,"""Mizu no Miyako"" Wota Sebun",19
 324,34,Adventure in the City on the Water,Suijo Toshi no Boken,19
 325,34,The Franky Family,Furanki Ikka,19
 326,34,Iceburg-san,Aisubagu-san,17
-327,34,"Shipyard Island, Construction Dock No. 1",Zosenjima Zosen Kojo Ichi-ban Dokku,21
+327,34,Shipyard Island- Construction Dock No. 1,Zosenjima Zosen Kojo Ichi-ban Dokku,21
 328,35,The Pirate Abduction Incident,Kaizoku Yukai Jiken,19
 329,35,"My Name Is ""Franky""","Ore no Na wa ""Furanki""",19
 330,35,It's Decided,Kimeta,17
@@ -451,7 +450,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 450,47,General Zombie Night,Jeneraru Zonbi Naito,19
 451,47,Perona's Wonder Garden,Perona no Wanda Gaden,19
 452,47,Jigor<U+03BF> of the Wind,Kaze no Jigoro,19
-453,47,"Cloudy, Partly Bony",Kumori Tokidoki Hone,19
+453,47,Cloudy- Partly Bony,Kumori Tokidoki Hone,19
 454,47,Humming,Hanauta,19
 455,47,Gecko Moria of the Seven Warlords of the Sea,Oka Shichibukai Gekko Moria,19
 456,47,Demon from the Land of Ice,Kori no Kuni kara Kita Majin,19
@@ -467,7 +466,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 466,48,Conclusion,Kecchaku,19
 467,48,Pirate Zoro vs Samurai Ryuma,Kaizoku Zoro Basasu Samurai Ryuma,19
 468,48,Pirate Chopper vs Mysterious Hogback,Kaizoku Choppa Basasu Kaijin Hogubakku,19
-469,48,"Come Out Here, Straw Hat Pirates!!!",Dete Koi Mugiwara no Ichimi!!!,19
+469,48,Come Out Here- Straw Hat Pirates!!!,Dete Koi Mugiwara no Ichimi!!!,19
 470,48,Oars vs. Straw Hat Pirates,Ozu Basasu Mugiwara no Ichimi,19
 471,49,My Friend,Mai Furendo,19
 472,49,Down,Daun,19
@@ -510,7 +509,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 509,52,Kizaru vs. Four Captains,Kizaru Basasu Yonin no Sencho,19
 510,52,Straw Hat Crew vs. Combat Weapon,Mugiwara no Ichimi Basasu Sento Heiki,19
 511,52,Axe-Carrying Sentomaru,Masakari Katsuida Sentomaru,19
-512,52,"Zoro, Gone","Zoro, Otosata nashi",19
+512,52,Zoro- Gone,Zoro- Otosata nashi,19
 513,53,Beyond Rescue!!!,Sukuenai!!!,19
 514,53,Mushrooms-Grow-From-the-Body Mushroom,Karada-kara-Kinoko-ga-Haeru Dake,19
 515,53,Adventure on the Island of Women,Nyogashima no Boken,19
@@ -526,7 +525,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 525,54,The Underwater Prison Impel Down,Kaitei Kangoku Inperu Daun,19
 526,54,Adventure in the Great Prison,Daikangoku no Boken,19
 527,54,Level 1 Crimson Hell,Reberu Wan Guren Jigoku,19
-528,54,"Jinbe, Knight of the Sea",Kaikyo no Jinbe,19
+528,54,Jinbe- Knight of the Sea,Kaikyo no Jinbe,19
 529,54,Level 2 Wild Beast Hell,Reberu Tsu Moju Jigoku,19
 530,54,From One Hell to Another,Jigoku-e Jigoku-e,19
 531,54,Level 3 Starvation Hell,Reberu Suri Kiga Jigoku,19
@@ -544,7 +543,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 543,56,Straw Hat and Blackbeard,Mugiwara to Kurohige,19
 544,56,The Lid to the Cauldron of Hell Opens,Jigoku no Kama no Futa mo Aku,19
 545,56,To the Sunshine in Outside World,Hi no Ataru Shaba-e,19
-546,56,"Fish-Man Pirate Captain Jinbe, Warlord of the Sea","Gyojin Kaizoku-dan Sencho ""Shichibukai"" Jinbe",17
+546,56,Fish-Man Pirate Captain Jinbe- Warlord of the Sea,"Gyojin Kaizoku-dan Sencho ""Shichibukai"" Jinbe",17
 547,56,Escaping the Island,Shimayaburi,19
 548,56,Thank You,Arigato,19
 549,56,Ship Sailing Forth,Shutsugeki no Fune,19
@@ -561,7 +560,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 560,57,Prisoners of Impel Down,Inperu Daun no Shujin-tachi,17
 561,57,Luffy vs. Mihawk,Rufi Basasu Mihoku,17
 562,57,Pirate Maelstrom Spider Squard,Kaizoku O Uzu Gumo Sukuado,17
-563,58,"One Heart, One Man",Shinzo Hitotsu Ningen Hitori,17
+563,58,One Heart- One Man,Shinzo Hitotsu Ningen Hitori,17
 564,58,The Man Who Shook the World,Sekai o yurasu otoko,17
 565,58,Oars' Path,Ozu no Michi,17
 566,58,Raid,Moko,19
@@ -605,10 +604,10 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 604,62,Into the Depths,Shinso e,19
 605,62,The Kraken and the Pirates,Kuraken to Kaizoku,19
 606,62,Deep Sea Adventure,Shinkai no Boken,17
-607,62,"10,000 Meters Under the Sea",Kaitei Ichiman Metoru,17
+607,62,10-000 Meters Under the Sea,Kaitei Ichiman Metoru,17
 608,62,Underwater Paradise,Kaitei no Rakuen,17
 609,62,Adventure on Fish-Man Island,Gyojinto no Boken,19
-610,62,"Madam Shyarly, Fortune-Teller",Uranaishi Madamu Shari,15
+610,62,Madam Shyarly- Fortune-Teller,Uranaishi Madamu Shari,15
 611,62,Hody Jones,Hodi Jonzu,17
 612,62,Taken by the Shark They Saved,Tasuketa Same ni Tsurerarete,19
 613,62,The Mermaid Princessin Hard-Shell Tower,Kokakuto no Ningyo Hime,17
@@ -632,7 +631,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 631,64,Gyoncorde Plaza,Gyonkorudo Hiroba,19
 632,64,I Knew,Shitteta,19
 633,64,Friend or Foe,Teki ka Mikata ka,19
-634,64,"100,000 vs. 10",Juman Basasu Ju,19
+634,64,100-000 vs. 10,Juman Basasu Ju,19
 635,64,So Scared I Ran Up to the Sky,Sora o Tobu Hodo Ozamashi,19
 636,64,General from Futureland,Miraikoku kara Kita Shogun,19
 637,65,The Ancient Ark,Inishie no Hakobune,19
@@ -645,7 +644,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 644,65,To Zero,Zero ni,19
 645,65,Death Is Another Form of Revenge,Shi mo Mata Fukushu,19
 646,65,Frog,Kaeru,19
-647,66,"Stop, Noah",Tomare Noa,19
+647,66,Stop- Noah,Tomare Noa,19
 648,66,The Road Toward the Sun,Taiyo e to Tsuzuku Michi,19
 649,66,The Dance of Sea Breams and Flounders,Tai ya Hirame no Maiodori,19
 650,66,Two Changes to Be Aware Of,Shitteokubeki Futatsu no Henka,17
@@ -658,7 +657,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 657,67,Severed Head,Namakubi,17
 658,67,Biscuits Room,Bisuketto Rumu,19
 659,67,About My Torso,Dotai no Hanashi,19
-660,67,"Trafalgar Law, Warlord of the Sea","""Oka Shichibukai"" Torafaruga Ro",19
+660,67,Trafalgar Law- Warlord of the Sea,"""Oka Shichibukai"" Torafaruga Ro",19
 661,67,The Lake of Bandits,Oihagi no Deru Mizuumi,19
 662,67,Warlord Law Vs. Vice Admiral Smoker,Shichibukai Ro Basasu Sumoka Chujo,19
 663,67,CC,Shi-Shi,19
@@ -682,8 +681,8 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 681,69,Luffy vs. Master,Rufi Basasu Masuta,19
 682,69,Puppet Master,Kuromaku,19
 683,69,An Icy Woman,Kori no yo na On'na,19
-684,69,"Don't Do It, Vegapunk",Yamerunda Begapanku,19
-685,69,My Name is Momonosuke!!,"Momonosuke, Sessha no Na ni Gozaru!!",19
+684,69,Don't Do It- Vegapunk,Yamerunda Begapanku,19
+685,69,My Name is Momonosuke!!,Momonosuke- Sessha no Na ni Gozaru!!,19
 686,69,The Snow Woman in the Biscuits Room,Bisuketto Rumu no Yuki-Onna,19
 687,69,Wild Beast,Moju,19
 688,69,Mocha,Mocha,19
@@ -699,7 +698,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 698,70,Doflamingo Appears,Dofuramingo Arawaru,19
 699,70,Morning Edition,Chokan,19
 700,70,His Own Pace,Yatsu no Pesu,19
-701,71,"Adventure in the Land of Love, Passion, and Toys",Ai to Jonetsu to Omocha no Kuni no Boken,19
+701,71,Adventure in the Land of Love- Passion- and Toys,Ai to Jonetsu to Omocha no Kuni no Boken,19
 702,71,Corrida Colosseum,Korida Koroshiamu,15
 703,71,Waiting Room,Hikaeshitsu,19
 704,71,Lucy and the Statue of Kyros,Rushi to Kyurosu no Zo,19
@@ -717,7 +716,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 716,72,Don Chinjao,Don Chinjao,19
 717,72,Dressrosa's Forgotten,Doresuroza no Wasuremono,19
 718,72,Riku Royal Army on the Flower Hill,Ohanabatake no Riku O Gun,19
-719,72,"Open, Chinjao",Hirake Chinjao,19
+719,72,Open- Chinjao,Hirake Chinjao,19
 720,72,Prison-Gladiators,Shujin Kentoshi,19
 721,72,Rebecca and Soldier-san,Rebekka to Heitai-san,19
 722,73,Royal Bloodlines,Ozoku no Ketto,19
@@ -736,7 +735,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 735,74,Fujitora's Intention,Fujitora no Omowaku,19
 736,74,Executive Officer Diamante,Saiko Kanbu Diamante,19
 737,74,Officer's Tower,Kanbu-to,19
-738,74,"Trebol Army, Special Officer Sugar",Toreboru-gun Tokubetsu Kanbu Shuga,19
+738,74,Trebol Army- Special Officer Sugar,Toreboru-gun Tokubetsu Kanbu Shuga,19
 739,74,Commander,Taicho,19
 740,74,It's in Your Hands!!!,Tanomu!!!,19
 741,74,Usoland the Liar,Usotsuki Usorando,19
@@ -763,16 +762,16 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 762,76,The White Town,Shiroi Machi,17
 763,76,Declaration of Humanity,Ningen Sengen,17
 764,77,White Monster,Howaito Monsuta,19
-765,77,"Minion, the Isle of Fate",Unmei no Shima Minion,17
+765,77,Minion- the Isle of Fate,Unmei no Shima Minion,17
 766,77,Smile,Sumairu,17
 767,77,Cora-san,Kora-san,17
 768,77,The Trigger That Day,Ano Hi no Hikigane,15
 769,77,Bellamy the Pirate,Kaizoku Berami,17
 770,77,The Spear of Elbaf,Erubafu no Yari,17
-771,77,"Sai, Don of the Happo Navy",Happo Suigun Don Sai,19
+771,77,Sai- Don of the Happo Navy,Happo Suigun Don Sai,19
 772,77,Cabbage & Lomeo,Kyabetsu ando Romeo,17
 773,77,Half & Half,Hafu ando Hafu,19
-774,77,"Leo, Chief of the Tontatta Tribe Warriors",Tontatta-zoku Senshi-cho Reo,15
+774,77,Leo- Chief of the Tontatta Tribe Warriors,Tontatta-zoku Senshi-cho Reo,15
 775,77,To Russian With Love,Rushian ni Ai o Komete,19
 776,78,Hero of the Colosseum,Koroshiamu no Eiyu,19
 777,78,Zoro vs. Pica,Zoro Basasu Pika,19
@@ -808,7 +807,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 807,81,10 Days Earlier,Toka Mae,17
 808,81,Duke Inuarashi,Inuarashi Koshaku,17
 809,81,Master Nekomamushi,Nekomamushi no Danna,19
-810,81,The Curly Hat Pirates Arrive,"Guruwara no Ichimi, Joriku",17
+810,81,The Curly Hat Pirates Arrive,Guruwara no Ichimi- Joriku,17
 811,81,Roko,Roko,19
 812,81,"Capone ""Gang"" Bege","Kapone ""Gyangu"" Bejji",17
 813,81,Tea Party Invitation,Ochakai no Shotaijo,17
@@ -817,7 +816,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 816,81,Dog vs. Cat,Inu Basasu Neko,17
 817,82,Raizo of the Mist,Kiri no Raizo,19
 818,82,Inside the Whale,Kujira no Naka de,17
-819,82,"Momonosuke, Heir to the Kozuki Family",Kozuki-ke Atotori Momonosuke,17
+819,82,Momonosuke- Heir to the Kozuki Family,Kozuki-ke Atotori Momonosuke,17
 820,82,Dog and Cat Have a History,Inu to Neko ni Rekishi Ari,17
 821,82,Understood,Shochi Shita,19
 822,82,Descending the Elephant,Gezo,17
@@ -827,7 +826,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 826,82,0 and 4,Rei to Yon,17
 827,82,Totto Land,Totto Rando,17
 828,83,1 and 2,Ichi to Ni,17
-829,83,"Emperor of the Sea, Charlotte Linlin","Kaizoku ""Yonko"" Sharotto Rinrin",18
+829,83,Emperor of the Sea- Charlotte Linlin,"Kaizoku ""Yonko"" Sharotto Rinrin",18
 830,83,A Man You Can Bet On,Kakerareru Otoko,17
 831,83,Adventure in the Mysterious Forest,Fushigi na Mori no Boken,17
 832,83,Germa Kingdom,Jeruma Okoku,19
@@ -863,21 +862,21 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 862,86,The Intelligent Ones,Zuno-ha,17
 863,86,The Honorable,Gikyo-ha,19
 864,86,The Vinsmoke Massacre Plot,Vinsumoku-ke Minagoroshi Keikaku,17
-865,86,"Hey, Mother",Ne Maza,17
+865,86,Hey- Mother,Ne Maza,17
 866,86,Natural Born Destroyer,Nachuraru Bon Desutoroiya,17
 867,86,Happy Birthday,Happi Basude,17
 868,86,KX Launcher,Ke-Ekkusu Rancha,17
 869,86,Under Siege,Rojo,19
 870,87,Parting,Ketsubetsu,17
-871,87,"You Can Do It, Caesar!!",Ganbare Shiza!!,17
+871,87,You Can Do It- Caesar!!,Ganbare Shiza!!,17
 872,87,Thick and Fluffy,Torofuwa,19
 873,87,Trapped Like Sweets in a Cage,Happo Fusa-gashi,17
 874,87,Be My Servant,Watashi no Shimobe ni Narinasai,19
 875,87,A Woman's Honor,Onna no Jingi,17
-876,87,Pudding Coincidentally Appears!!,"Purin, Guzen Arawaru!!",17
+876,87,Pudding Coincidentally Appears!!,Purin- Guzen Arawaru!!,17
 877,87,Not Sweet,Amakunai,17
 878,87,Captain Pedro of the Mink Tribe Guardians,Minku-zoku Gadianzu Dancho Pedoro,19
-879,87,"One of Big Mom's ""3 Sweet Commanders"", Katakuri","Biggu Mamu ""Suito San Shosei"" Katakuri",17
+879,87,"One of Big Mom's ""3 Sweet Commanders""- Katakuri","Biggu Mamu ""Suito San Shosei"" Katakuri",17
 880,88,Zero Escape,Tairo Zero,17
 881,88,Wave Room,Nami no Heya,17
 882,88,Beyond the Emperor's Expectations,Yonko no Sotei-gai,17
@@ -891,7 +890,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 890,89,Big Mom on the Ship,Fune no Ue no Biggu Mamu,19
 891,89,They Believe in Me,Shinjirareteru,17
 892,89,Recognized as Strong Opponents,Kyoteki Nintei,17
-893,89,"Flampe, 36th Daughter of Charlotte",Sharotto-ke Sanjuroku-jo Furanpe,17
+893,89,Flampe- 36th Daughter of Charlotte,Sharotto-ke Sanjuroku-jo Furanpe,17
 894,89,12:05,Rei-ji Go-fun,17
 895,89,Luffy the Pirate vs. Commander Katakuri,Kaizoku Rufi Basasu Shosei Katakuri,17
 896,89,The Last Request,Saigo no Onegai,17
@@ -899,7 +898,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 898,89,We'll Definitely Return,Kanarazu Modoru,17
 899,89,The Final Fortress,Saigo no Toride,17
 900,89,Bad End Musical,Baddoendo Myujikaru,19
-901,90,"Even If You Die, Don't Die!!!",Shindemo Shinunayo!!!,17
+901,90,Even If You Die- Don't Die!!!,Shindemo Shinunayo!!!,17
 902,90,End Roll,Endo Roru,19
 903,90,Fifth Emperor,Go-banme no Kotei,17
 904,90,Introducing the Revolutionary Army Commanders,Kakumei-gun Zengun Taicho Tojo,15
@@ -927,7 +926,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 926,92,The Prisoner Mine,Shujin Saikutsujo,17
 927,92,O-Toko the Kamuro,Kamuro no O-Toko,15
 928,92,Introducing Komurasaki the Oiran,Oiran Komurasaki Tojo,17
-929,92,"Shogun of Wano Country, Kurozumi Orochi",Wano Kuni Shogun - Kurozumi Orochi,18
+929,92,Shogun of Wano Country- Kurozumi Orochi,Wano Kuni Shogun - Kurozumi Orochi,18
 930,92,Ebisu Town,Ebisu-cho,17
 931,92,O-Soba Mask,O-Soba Masuku,17
 932,93,Shogun and Oiran,Shogun to Oiran,17
@@ -940,7 +939,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 939,93,The Old Leopard Never Forgets the Way,Oitaru Hyo wa Michi o Wasurezu,17
 940,93,Sparks of Rebellion,Hangyaku no Hidane,17
 941,93,The Star of Ebisu Town,Ebisu-cho no Ninkimono,17
-942,93,"Daimyo of Hakumai, Shimotsuki Yasuie","""Hakumai Daimyo"" Shimotsuki Yasuie",17
+942,93,Daimyo of Hakumai- Shimotsuki Yasuie,"""Hakumai Daimyo"" Shimotsuki Yasuie",17
 943,94,SMILE,Sumairu,17
 944,94,Partner,Aibo,17
 945,94,O-Lin,O-Rin,19
@@ -970,9 +969,9 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 969,96,Fool of a Lord,Baka-tono,17
 970,96,Oden vs. Kaidou,Oden Basasu Kaido,17
 971,96,Sentenced to Boil,Kamayude no Kei,17
-972,96,"I am Oden, And I Was Born to Boil",Niete Nanbo no Oden ni Soro,19
+972,96,I am Oden- And I Was Born to Boil,Niete Nanbo no Oden ni Soro,19
 973,96,The Kozuki Clan,Kozuki no Ichizoku,17
-974,96,Onward to Onigashima!!,"Iza, Onigashima!!",17
+974,96,Onward to Onigashima!!,Iza- Onigashima!!,17
 975,97,Kin'emon's Clever Trick,Kin'emon no ikkei,17
 976,97,Begging Your Pardon!!!,Ohikenasutte!!!,19
 977,97,The Party's Off!!!,Utage wa Yame da!!!,17
@@ -1006,7 +1005,7 @@ Chapter_Number,Volume,Name,Romanized_title,Pages
 1005,100,Devil Child,Akuma no Ko,17
 1006,100,The Honorable Hyogoro of the Flower,"Kyokaku ""Hana no Hyogoro""",19
 1007,100,Tanuki-san,Tanuki-san,17
-1008,100,"Leader of the Mt. Atama Thieves, Ashura Doji",Atama-yama Tozoku-dan Toryo Ashura Doji,17
+1008,100,Leader of the Mt. Atama Thieves- Ashura Doji,Atama-yama Tozoku-dan Toryo Ashura Doji,17
 1009,100,Naraku,Naraku,19
 1010,100,Haoshoku,Hao-shoku,17
 1011,100,The Code of Anko,Anko no Jingi,19
